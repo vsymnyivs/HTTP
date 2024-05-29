@@ -40,7 +40,7 @@ if __name__ == "__main__":
         webServer.serve_forever()
     except KeyboardInterrupt:
         # Корректный способ остановить сервер в консоли через сочетание клавиш Ctrl + C
-        pass
+        pass  # на будущее
 
     # Корректная остановка веб-сервера, чтобы он освободил адрес и порт в сети, которые занимал
     webServer.server_close()
